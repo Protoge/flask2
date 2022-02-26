@@ -10,7 +10,7 @@ def test_request_main_menu_links(client):
     assert b'<a class="nav-link" href="/page2">Page 2</a>' in response.data
     assert b'<a class="nav-link" href="/page3">Page 3</a>' in response.data
     assert b'<a class="nav-link" href="/page4">Page 4</a>' in response.data
-    assert b'<a class="nav-link" href="/page4">Page 6</a>' in response.data
+    assert b'<a class="nav-link" href="/page6">Page 6</a>' in response.data
 
 
 def test_request_index(client):
