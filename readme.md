@@ -5,6 +5,10 @@
 * [Production Deployment](https://rgilo-dev.herokuapp.com/)
 
 
+[![Development Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml)
+
+* [Developmental Deployment](https://rgilo-dev.herokuapp.com/)
+
 ## Setting up CI/CD
 
 The result of this will be that when you create a pull request to merge a branch to master, it will deploy to your
