@@ -5,7 +5,7 @@
 * [Production Deployment](https://rgilo-dev.herokuapp.com/)
 
 
-[![Development Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml)
+[![Development Workflow](https://github.com/Protoge/flask2/actions/workflows/dev.yml/badge.svg)](https://github.com/Protoge/flask2/actions/workflows/dev.yml)
 
 * [Developmental Deployment](https://rgilo-dev.herokuapp.com/)
 
