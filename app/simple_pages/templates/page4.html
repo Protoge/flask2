@@ -2,4 +2,5 @@
 {% block content %}
     Page 4
     <h1>Continuous Integration and Deployment</h1>
+    <p>The project is set up using Github actions workflow. The project has two workflows, production workflow, and development workflow. Each workflow is triggered by specific events. The production workflow is triggered when pushing code into the repository. The development workflow is triggered when pulling and merging code in Github. When updating master, the production workflow is executed and one of its jobs is to deploy an image to Dockerhub by first creating an image and the image will be pushed to a docker repository</p>
 {% endblock %}
