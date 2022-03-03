@@ -1,4 +1,14 @@
 {% extends "base.html" %}
 {% block content %}
     Page 3
+    <h1>Git</h1>
+    <div class="card">
+      <div class="card-body">
+          <p><b>Git branches - </b>A branch is an independent line of development. It acts as a pointer to your next commits. When creating a new branch, Git creates a new pointer  while keeping  the original code base untouched.</p>
+          <p><b>Git merge - </b>A Git merge is a command that lets you take the independent lines of development created by a git branch and integrate them into a single branch.</p>
+          <p><b>Git commit - </b>A Git command captures a snapshot of the project's currently staged changes. These snapshots can be thought of as "safe" versions of a project and Git will never change them unless you make it so.</p>
+          <p><b>Git tag - </b>A Git tag ref's to that point to specific points in Git history. Tagging is generally used to capture a point in history that is used for a marked version release for example (i.e. v1.0.1). A tag is like a branch that doesn't change. Unlike branches, tags, after being created, have no further history of commits.</p>
+          <p><b>Git repositories - </b>A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed.</p>
+      </div>
+    </div>
 {% endblock %}
