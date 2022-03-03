@@ -10,4 +10,4 @@ def test_calculator_operations_subtract():
 
 def test_calculator_operations_multiply():
     """Testing the Calculator"""
-    assert Multiplication.multiply(1,1) == 1
+    assert Multiplication.multiply(2,2) == 4
