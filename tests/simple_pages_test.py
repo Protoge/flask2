@@ -6,10 +6,10 @@ def test_request_main_menu_links(client):
     response = client.get("/")
     assert response.status_code == 200
     assert b'<a class="nav-link" href="/about">About</a>' in response.data
-    assert b'<a class="nav-link" href="/page1">OOP Glossary</a>' in response.data
-    assert b'<a class="nav-link" href="/page2">AAA Testing</a>' in response.data
-    assert b'<a class="nav-link" href="/page3">Git</a>' in response.data
-    assert b'<a class="nav-link" href="/page4">Continuous Integration and Deployment</a>' in response.data
+    assert b'<a class="nav-link" href="/page1">Article 1 (pylint & others)</a>' in response.data
+    assert b'<a class="nav-link" href="/page2">Article 2 (AAA Testing)</a>' in response.data
+    assert b'<a class="nav-link" href="/page3">Article 3 (OOPs)</a>' in response.data
+    assert b'<a class="nav-link" href="/page4">Article 4 (SOLID)</a>' in response.data
 
 
 def test_request_index(client):

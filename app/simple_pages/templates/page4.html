@@ -1,6 +1,25 @@
 {% extends "base.html" %}
 {% block content %}
     Page 4
-    <h1>Continuous Integration and Deployment</h1>
-    <p>The project is set up using Github actions workflow. The project has two workflows, production workflow, and development workflow. Each workflow is triggered by specific events. The production workflow is triggered when pushing code into the repository. The development workflow is triggered when pulling and merging code in Github. When updating master, the production workflow is executed and one of its jobs is to deploy an image to Dockerhub by first creating an image and the image will be pushed to a docker repository</p>
+    <h1>Article 4 (SOLID)</h1>
+    <div class="card">
+        <div class="card-body">
+            <p>The SOLID principles are five principles of OOP design.</p>
+            <ul>
+                <li><b>S</b>ingle Responsibility Principle</li>
+                <li><b>O</b>pen-closed Principle</li>
+                <li><b>L</b>iskov Substitution Principle</li>
+                <li><b>I</b>nterface Segregation Principle</li>
+                <li><b>D</b>ependency Inversion Principle</li>
+            </ul>
+            <p>First, Single Responsibility Principle is essentially a class that only does one specific task and one single reason to change. The code below is an example of single responsibility in the calculator program where each class like the addition class does one specific task and that is to return the added value.</p>
+            <img src="https://cdn.glitch.global/18ad89d5-6728-439f-9acc-d2ee1d40eeba/Screenshot%202022-03-27%20002207.png?v=1648355356334">
+            <p>Second, Open-closed principle states that classes should be open for extension and closed modification. This process allows our program to add functionality without touching the code. In our calculator program, one example of open-closed principle is when establishing a parent to children relationship between classes that allows children to use the properties of its parent class. The code below is an example from the calculator program that shows open-closed principle.</p>
+            <img src="https://cdn.glitch.global/18ad89d5-6728-439f-9acc-d2ee1d40eeba/inheritance.png?v=1648277630353"/>
+            <p>Third, Liskov Substitution Principle states that subclasses should be suitable for their base classes.</p>
+            <p>Lastly, Dependency Inversion Principle states that classes should depend upon interfaces or abstract classes instead of concrete classes and functions.</p>
+        </div>
+    </div>
+
+
 {% endblock %}

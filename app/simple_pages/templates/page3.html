@@ -1,14 +1,21 @@
 {% extends "base.html" %}
 {% block content %}
     Page 3
-    <h1>Git</h1>
+    <h1>Article 3 (OOPs)</h1>
     <div class="card">
       <div class="card-body">
-          <p><b>Git branches - </b>A branch is an independent line of development. It acts as a pointer to your next commits. When creating a new branch, Git creates a new pointer  while keeping  the original code base untouched.</p>
-          <p><b>Git merge - </b>A Git merge is a command that lets you take the independent lines of development created by a git branch and integrate them into a single branch.</p>
-          <p><b>Git commit - </b>A Git command captures a snapshot of the project's currently staged changes. These snapshots can be thought of as "safe" versions of a project and Git will never change them unless you make it so.</p>
-          <p><b>Git tag - </b>A Git tag ref's to that point to specific points in Git history. Tagging is generally used to capture a point in history that is used for a marked version release for example (i.e. v1.0.1). A tag is like a branch that doesn't change. Unlike branches, tags, after being created, have no further history of commits.</p>
-          <p><b>Git repositories - </b>A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed.</p>
+            <b>Encapsulation</b>
+            <p>In the calculator program the concept of encapsulation can be seen where the Calculator class is created along with its properties and methods. In the code below, the Calculator class encapsulates the statics methods of add, subtract, and divide. </p>
+            <img src="https://cdn.glitch.global/18ad89d5-6728-439f-9acc-d2ee1d40eeba/encaps.png?v=1648281559468"/>
+            <b>Inheritance</b>
+            <p>Inheritance is parent class to children relationship. The code below is an example of encapsulation from the calculator program. In the case of the calculator program, an example of inheritance is when the Addition class takes in the pass class Calculation as its parameter. In doing so, this allows the Addition class to inherit the properties of the Calculation class.</p>
+            <img src="https://cdn.glitch.global/18ad89d5-6728-439f-9acc-d2ee1d40eeba/inheritance.png?v=1648277630353"/>
+            <b>Polymorphism</b>
+            <p>In the Calculator class the concept of polymorphism can be seen when the creation of variable named calculation and assigning the create method from the Calculation class. The create method have different forms and all over the calculator program the create method is used for different types. The code below is an example of the calculator program using polymorphism.</p>
+            <img src="https://cdn.glitch.global/18ad89d5-6728-439f-9acc-d2ee1d40eeba/abstraction-poly.png?v=1648277625953"/>
+            <b>Abstraction</b>
+            <p>In line 39, the code below demonstrates an example of abstraction where the add method is being called. The whole concept of this is that the user does not need to know the internal details of the add method, all they need to know is that it takes two arguments and the method will do the rest.</p>
+            <img src="https://cdn.glitch.global/18ad89d5-6728-439f-9acc-d2ee1d40eeba/inheritance.png?v=1648277630353"/>
       </div>
     </div>
 {% endblock %}
